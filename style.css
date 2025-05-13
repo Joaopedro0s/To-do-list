@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #0d0d1a;
+    padding-top: 40;
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #161625;
+    box-shadow: 0 0 10px gray;
+}
+
+h1{
+    color: aliceblue;
+    text-shadow: 1px 1px 2px aqua;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+#input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #66f;
+    border-radius: 5px;
+    background-color: #161625;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#add-button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff00ff;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 25px;
+    cursor: pointer;
+    border: 3px solid white;
+}
+
+#listaTarefas{
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+#listaTarefas p {
+    background-color: #1f1f35;
+    border: 2px solid #4444ff;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 8px;
+    font-size: 22px;
+    width: 80%;
+    text-align: left;
+    color: #ffffff;
+    box-shadow: 0 0 5px #00000088;
+}
