@@ -7,14 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-            <div class="container">
+    <div class="container">
         <h1>👾 LIST 👾</h1>
 
         <input type="text" id="input" placeholder="Insira sua tarefa">
-            <button id="add-button">+</button>
+        <button id="add-button">+</button>
 
-            <div id="listaTarefas"></div>                
+        <div>
+            <div class="filtro-container">
+                <label for="filtroTarefas"></label>
+                <select id="filtroTarefas">
+                    <option value="todas">Todas</option>
+                    <option value="concluidas">Concluídas</option>
+                    <option value="nao-concluidas">Não concluídas</option>
+                </select>
+            </div>
+            
         </div>
+
+        <div id="listaTarefas"></div>                
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
